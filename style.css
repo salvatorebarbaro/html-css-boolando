@@ -52,13 +52,21 @@ header{
 /*inizio body*/
 
 .conteniner_body{
+    display: flex;
     max-width: 1000px;
     margin-left: auto;/*centrato il centenitore*/
     margin-right: auto;
     background-color: blue;/*regola di test (da cancellare )*/
-    height: 1515px;
+    height: 1515px;/*test da togliere*/
     margin-top: 65px;
     margin-bottom: 65px;
+}
+.capo{
+    display: flex;
+    gap: 21px 50px;
+    height:730px;/* height:100%;*//*dainserire questi*/
+    width:465px; /*width:100%;*/
+    background-color: black;
 }
 
 
