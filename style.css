@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 /*fine regole di reset*/
-body{
+body > *{
     
     border: 2px solid red; /*regola di test*/
 
@@ -49,5 +49,38 @@ header{
     
 }
 /*fine navbar header*/
+/*inizio body*/
+
+.conteniner_body{
+    max-width: 1000px;
+    margin-left: auto;/*centrato il centenitore*/
+    margin-right: auto;
+    background-color: blue;/*regola di test (da cancellare )*/
+    height: 1515px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
 
 
+
+/*fine body*/
+/*inizio footer*/
+footer{background-color: #1A1A1A;}
+.contenitore_footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;/*centrato il centenitore*/
+    margin-right: auto;
+    color: white;
+
+}
+.informative{
+    padding: 32px 0;
+}
+.loghi_footer{
+    padding: 32px 0;
+}
+
+
+/*fine footer*/
