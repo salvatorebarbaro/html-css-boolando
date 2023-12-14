@@ -1,0 +1,30 @@
+/*regole di reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*fine regole di reset*/
+body{
+    
+    border: 2px solid red; /*regola di test*/
+
+}
+
+/*inizio header*/
+header{
+    background-color: orange;
+}
+.conteniner_navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;/*centrato il centenitore*/
+    margin-right: auto;
+    color: white;
+    height: 10px;
+    border: 2px solid red; /*regola di test*/
+}
+
+/*fine navbar header*/
+
