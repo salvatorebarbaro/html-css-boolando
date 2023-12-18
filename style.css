@@ -87,11 +87,27 @@ header{
 .riga_superiore{display: flex;}
 .capo{
     display: flex;
-    gap: 21px ;
+    flex-direction: column;
+    gap: 5px ;
     height: 720px;/* height:100%;*//*dainserire questi*/
     width: 450px; /*width:100%;*/
-    background-color: black;
+    background-color: white;
 }
+.sezione_testuale{
+    display: flex;
+    flex-direction: column;
+}
+.capo .sezione_testuale div:nth-child(2){
+    font-weight: bold;
+}
+#prezzo_scontato{
+    color: red;
+    padding-right: 5px;
+}
+#prezzo_barrato{
+    text-decoration: line-through;
+}
+
 
 
 
